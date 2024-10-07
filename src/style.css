@@ -1,6 +1,7 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 50px;
 }
 a {
   font-weight: bold;
@@ -17,7 +18,7 @@ h2 {
 select {
   display: block;
   width: 100%;
-  padding: 20px 40px;
+  padding: 30px 40px;
   border-radius: 10px;
   font-size: 25px;
   opacity: 0.6;
