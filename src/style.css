@@ -18,7 +18,7 @@ h2 {
 select {
   display: block;
   width: 100%;
-  padding: 30px 40px;
+  padding: 20px 40px;
   border-radius: 10px;
   font-size: 25px;
   opacity: 0.6;
@@ -51,11 +51,11 @@ footer {
 }
 .date {
   opacity: 0.7;
-  margin-left: 500px;
+  margin-left: 450px;
   margin-top: -75px;
 }
 .time {
   font-size: 35px;
   font-weight: bold;
-  margin-left: 500px;
+  margin-left: 450px;
 }
