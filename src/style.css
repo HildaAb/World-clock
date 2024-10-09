@@ -4,20 +4,17 @@ body {
   margin-top: 50px;
   color: rgb(38, 4, 83);
 }
-img {
-  font-display: block;
-  margin-left: 10px;
-  padding: 40px;
-  position: relative;
+.clock {
+  display: block;
 }
 a {
   font-weight: bold;
   font-size: 15px;
 }
 h1 {
-  font-size: 60px;
-  margin-top: -350px;
-  margin-left: 540px;
+  font-size: 55px;
+  margin-top: -509px;
+  margin-left: 390px;
 }
 h2 {
   font-size: 30px;
@@ -26,10 +23,11 @@ h2 {
 }
 select {
   display: block;
-  width: 45%;
-  padding: 15px 20px;
-  margin-left: 500px;
+  width: 420px;
+  padding: 15px 00px;
+  margin-left: 350px;
   margin-top: 10px;
+  margin-bottom: 20px;
   border-radius: 10px;
 
   font-size: 25px;
@@ -47,31 +45,33 @@ footer {
   line-height: 40px;
 }
 .container {
-  width: 1000px;
+  width: 800px;
   margin: 0 auto;
   background-color: rgb(216, 218, 243);
   border-radius: 10px;
 }
 .city {
   padding: 10px;
-  margin-left: 460px;
-  margin-top: 15px;
-  margin-bottom: -10px;
-  border-bottom: 1px dashed;
+  margin-left: 310px;
+  margin-top: 10px;
+  margin-bottom: -15px;
+  border-bottom: 1px dashed rgb(38, 4, 83);
 }
 .city:last-child {
   border: none;
 }
 .date {
   opacity: 0.7;
-  margin-left: 340px;
+  margin-left: 310px;
   margin-top: -80px;
 }
 .time {
   font-size: 25px;
   font-weight: bold;
-  margin-left: 340px;
+  margin-left: 310px;
+  margin-bottom: 15px;
 }
 .return {
-  margin: 45px;
+  margin-left: 360px;
+  margin-bottom: 25px;
 }
