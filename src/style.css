@@ -13,9 +13,9 @@ a {
   font-size: 15px;
 }
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   margin-top: -350px;
-  margin-left: 510px;
+  margin-left: 540px;
 }
 h2 {
   font-size: 30px;
@@ -25,11 +25,11 @@ h2 {
 select {
   display: block;
   width: 45%;
-  padding: 15px 30px;
+  padding: 15px 20px;
   margin-left: 500px;
   margin-top: 10px;
   border-radius: 10px;
-  margin-bottom: -20px;
+
   font-size: 25px;
   opacity: 0.8;
   text-align: start;
@@ -47,13 +47,14 @@ footer {
 .container {
   width: 1000px;
   margin: 0 auto;
-  background-color: rgb(188, 193, 248);
+  background-color: rgb(216, 218, 243);
   border-radius: 10px;
 }
 .city {
   padding: 20px 0;
   margin-left: 460px;
-  margin-top: 30px;
+  margin-top: 15px;
+  margin-bottom: -10px;
   border-bottom: 1px dashed;
 }
 .city:last-child {
@@ -62,13 +63,10 @@ footer {
 .date {
   opacity: 0.7;
   margin-left: 300px;
-  margin-top: -75px;
+  margin-top: -80px;
 }
 .time {
   font-size: 25px;
   font-weight: bold;
   margin-left: 300px;
-}
-.back {
-  padding: 20px 40px;
 }
