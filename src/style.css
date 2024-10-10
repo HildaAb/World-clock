@@ -2,42 +2,44 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-top: 50px;
-  color: rgb(38, 4, 83);
+  color: antiquewhite;
+
+  margin-left: 150px;
 }
 .clock {
   display: block;
+  margin: 0 30px;
 }
 a {
   font-weight: bold;
   font-size: 15px;
 }
 h1 {
-  font-size: 55px;
-  margin-top: -509px;
-  margin-left: 390px;
+  font-size: 40px;
+  margin-top: -468px;
+  margin-left: 435px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 25px;
   padding: 20px 40px;
-  margin-top: -20px;
+  margin-top: -10px;
+  margin-bottom: -5px;
 }
 select {
   display: block;
   width: 420px;
-  padding: 15px 00px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: rgb(38, 4, 83);
   margin-left: 350px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-
-  font-size: 25px;
+  border-radius: 20px;
   opacity: 0.8;
   text-align: start;
 }
 footer {
-  text-align: center;
+  text-align-last: center;
   font-size: 10px;
-  padding: 20px 40px;
+  color: rgb(38, 4, 83);
 }
 .during-day {
   font-size: 20px;
@@ -46,8 +48,8 @@ footer {
 }
 .container {
   width: 800px;
-  margin: 0 auto;
-  background-color: rgb(216, 218, 243);
+  background-color: rgb(26, 4, 90);
+  margin-left: 100px;
   border-radius: 10px;
 }
 .city {
@@ -55,7 +57,7 @@ footer {
   margin-left: 310px;
   margin-top: 10px;
   margin-bottom: -15px;
-  border-bottom: 1px dashed rgb(38, 4, 83);
+  border-bottom: 1px dashed;
 }
 .city:last-child {
   border: none;
@@ -63,15 +65,19 @@ footer {
 .date {
   opacity: 0.7;
   margin-left: 310px;
-  margin-top: -80px;
+  margin-top: -50px;
 }
 .time {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   margin-left: 310px;
   margin-bottom: 15px;
 }
 .return {
-  margin-left: 360px;
-  margin-bottom: 25px;
+  margin-left: 30px;
+  margin-top: -30px;
+  color: antiquewhite;
+  background-color: black;
+  padding: 20px 84px 0 84px;
+  font-size: 30px;
 }
