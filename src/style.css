@@ -8,7 +8,10 @@ body {
 }
 .clock {
   display: block;
-  margin: 0 30px;
+  margin: 0 20px 0 0;
+  width: 300px;
+  height: 500px;
+  max-block-size: 100%;
 }
 a {
   font-weight: bold;
@@ -18,6 +21,7 @@ h1 {
   font-size: 40px;
   margin-top: -468px;
   margin-left: 435px;
+  margin-bottom: 50px;
 }
 h2 {
   font-size: 25px;
@@ -48,6 +52,7 @@ footer {
 }
 .container {
   width: 800px;
+  min-height: 500px;
   background-color: rgb(26, 4, 90);
   margin-left: 100px;
   border-radius: 10px;
@@ -74,9 +79,8 @@ footer {
   margin-bottom: 15px;
 }
 .return {
-  margin-left: 30px;
   margin-top: -30px;
-  color: antiquewhite;
+  color: rgb(148, 111, 62);
   background-color: black;
   padding: 20px 84px 0 84px;
   font-size: 30px;
