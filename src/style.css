@@ -83,16 +83,10 @@ footer {
   background-color: black;
   padding: 10px 20px 0 20px;
   font-size: 30px;
+  margin-left: -50px;
 }
 
 @media (max-width: 1100px) {
-  body {
-    margin: 0 auto;
-    padding: 0 auto;
-    max-width: 600px;
-    min-height: 700px;
-  }
-
   .clock {
     width: 300px;
     max-height: 540px;
@@ -135,15 +129,13 @@ footer {
   }
 }
 
-@media (max-width: 700px) {
-  body {
-    margin: 0;
-    padding: 0;
+@media (max-width: 750px) {
+  .container {
+    max-width: 420px;
   }
   .row {
     grid-template-columns: 1fr;
   }
-
   .clock {
     display: none;
   }
@@ -151,18 +143,18 @@ footer {
   h1 {
     margin-top: 40px;
     font-size: 30px;
-    margin-left: 60px;
+    margin-left: 40px;
   }
   select {
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 30px;
     max-width: 340px;
     font-size: 12px;
   }
 
   .city {
-    margin-left: 10px;
     font-size: 18;
+    margin-left: -20px;
   }
   .return {
     margin-left: 0;
@@ -189,27 +181,36 @@ footer {
 }
 
 @media (max-width: 580px) {
+  .container {
+    max-width: 550px;
+  }
   .return {
-    padding: 10px 200px;
+    padding: 10px 204px;
   }
 }
 
 @media (max-width: 450px) {
+  .container {
+    max-width: 450px;
+  }
   .return {
-    padding: 10px 140px;
+    padding: 10px 158px;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
+  .container {
+    max-width: 360px;
+  }
   h1 {
     margin-left: 30px;
   }
   select {
     margin-left: 30px;
-    width: 280px;
+    width: 275px;
   }
   .return {
-    padding: 10px 110px;
+    padding: 10px 113px;
     font-size: 30px;
   }
 
