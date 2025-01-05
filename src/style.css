@@ -1,27 +1,29 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin-top: 50px;
+  margin: 0;
   color: antiquewhite;
+}
 
-  margin-left: 150px;
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .clock {
   display: block;
   margin: 0 20px 0 0;
   width: 300px;
-  height: 500px;
-  max-block-size: 100%;
+  height: 550px;
 }
 a {
   font-weight: bold;
   font-size: 15px;
 }
 h1 {
-  font-size: 40px;
-  margin-top: -468px;
-  margin-left: 435px;
+  font-size: 30px;
+  margin-top: 30px;
   margin-bottom: 50px;
+  margin-left: -47px;
 }
 h2 {
   font-size: 25px;
@@ -32,10 +34,10 @@ h2 {
 select {
   display: block;
   width: 420px;
-  padding: 10px 20px;
+  padding: 10px 14px;
   font-size: 20px;
   color: rgb(38, 4, 83);
-  margin-left: 350px;
+  margin-left: -60px;
   border-radius: 20px;
   opacity: 0.8;
   text-align: start;
@@ -51,17 +53,15 @@ footer {
   line-height: 40px;
 }
 .container {
-  width: 800px;
-  min-height: 500px;
+  width: 812px;
+  min-height: 450px;
   background-color: rgb(26, 4, 90);
-  margin-left: 100px;
-  border-radius: 10px;
 }
 .city {
   padding: 10px;
-  margin-left: 310px;
+  margin-left: -97px;
   margin-top: 10px;
-  margin-bottom: -15px;
+  margin-bottom: -10px;
   border-bottom: 1px dashed;
 }
 .city:last-child {
@@ -69,19 +69,158 @@ footer {
 }
 .date {
   opacity: 0.7;
-  margin-left: 310px;
+  margin-left: 290px;
   margin-top: -50px;
 }
 .time {
   font-size: 20px;
   font-weight: bold;
-  margin-left: 310px;
+  margin-left: 290px;
   margin-bottom: 15px;
 }
 .return {
-  margin-top: -30px;
   color: rgb(148, 111, 62);
   background-color: black;
-  padding: 20px 84px 0 84px;
+  padding: 10px 20px 0 20px;
   font-size: 30px;
+}
+
+@media (max-width: 1100px) {
+  body {
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 600px;
+    min-height: 700px;
+  }
+
+  .clock {
+    width: 300px;
+    max-height: 540px;
+  }
+
+  h1 {
+    margin-top: 50px;
+    margin-left: -50px;
+    font-size: 30px;
+  }
+  select {
+    width: 380px;
+    margin-top: 20px;
+    margin-left: -60px;
+    padding: 8px 10px;
+    font-size: 18px;
+  }
+
+  .city {
+    font-size: 18;
+    margin-left: -110px;
+  }
+  .return {
+    margin-left: -400px;
+    padding: 8px 340px;
+  }
+
+  .date {
+    margin-left: 280px;
+    font-size: 16px;
+  }
+  .time {
+    margin-left: 280px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  footer {
+    margin-top: 30px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .row {
+    grid-template-columns: 1fr;
+  }
+
+  .clock {
+    display: none;
+  }
+
+  h1 {
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 60px;
+  }
+  select {
+    margin-top: 20px;
+    margin-left: 50px;
+    max-width: 340px;
+    font-size: 12px;
+  }
+
+  .city {
+    margin-left: 10px;
+    font-size: 18;
+  }
+  .return {
+    margin-left: 0;
+    padding: 10px 170px;
+  }
+
+  .date {
+    margin-left: 230px;
+    margin-top: -50px;
+    font-size: 16px;
+  }
+  .time {
+    margin-left: 230px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  footer {
+    margin-top: 15px;
+    font-size: 11px;
+  }
+  a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .return {
+    padding: 10px 200px;
+  }
+}
+
+@media (max-width: 450px) {
+  .return {
+    padding: 10px 140px;
+  }
+}
+
+@media (max-width: 350px) {
+  h1 {
+    margin-left: 30px;
+  }
+  select {
+    margin-left: 30px;
+    width: 280px;
+  }
+  .return {
+    padding: 10px 110px;
+    font-size: 30px;
+  }
+
+  .city {
+    font-size: 17px;
+    margin-left: -10px;
+  }
+  .date {
+    margin-left: 190px;
+  }
+  .time {
+    margin-left: 190px;
+  }
 }
